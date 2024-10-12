@@ -1,4 +1,0 @@
-[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_task/src/task.cpp:[m[K In member function ‘[01m[Kvoid TaskRequestNode::send_tasks_request()[m[K’:
-[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_task/src/task.cpp:59:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KdesiredLength[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
-   59 |     size_t [01;35m[KdesiredLength[m[K = 6;            // 随机任务序列长度，可以人为规定
-      |            [01;35m[K^~~~~~~~~~~~~[m[K

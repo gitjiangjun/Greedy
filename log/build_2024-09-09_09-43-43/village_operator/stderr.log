@@ -1,4 +1,0 @@
-[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In member function ‘[01m[Kvoid IncrementalHungarianAlgorithm::addNewTask(size_t, const std::vector<double, std::allocator<double> >&)[m[K’:
-[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:78:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knew_task_index[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   78 |     void addNewTask([01;35m[Ksize_t new_task_index[m[K, const std::vector<double> &new_task_rewards)
-      |                     [01;35m[K~~~~~~~^~~~~~~~~~~~~~[m[K

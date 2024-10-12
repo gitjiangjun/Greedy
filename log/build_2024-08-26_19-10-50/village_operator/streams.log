@@ -1,4 +1,0 @@
-[0.051s] Invoking command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator': AMENT_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_operator -- -j12 -l12
-[0.195s] [35m[1mConsolidate compiler generated dependencies of target operator_node[0m
-[0.230s] [ 50%] [32mBuilding CXX object CMakeFiles/operator_node.dir/src/operator.cpp.o[0m
-[9.872s] [100%] [32m[1mLinking CXX executable operator_node[0m

@@ -1,9 +1,0 @@
-[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:281:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass TaskAssignServer[m[K’
-  281 | class [01;31m[KTaskAssignServer[m[K : public rclcpp::Node {
-      |       [01;31m[K^~~~~~~~~~~~~~~~[m[K
-[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:155:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass TaskAssignServer[m[K’
-  155 | class [01;36m[KTaskAssignServer[m[K : public rclcpp::Node {
-      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/operator_node.dir/build.make:76: CMakeFiles/operator_node.dir/src/operator.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/operator_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

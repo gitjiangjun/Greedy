@@ -1,5 +1,0 @@
-[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In member function ‘[01m[Kvoid TaskAssignmentManager::assignTask(int, int, int, double, int)[m[K’:
-[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:104:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtaskTime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-  104 |  void assignTask(int operatorIndex, int taskIndex, [01;35m[Kint taskTime[m[K, double successRate, int taskValue) {
-      |                                                    [01;35m[K~~~~^~~~~~~~[m[K
-

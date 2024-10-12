@@ -1,7 +1,0 @@
-[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In member function ‘[01m[Kvoid TaskAssignServer::assignTasks(const std::vector<int>&, std::shared_ptr<village_interfaces::srv::TaskAssign_Response_<std::allocator<void> > >)[m[K’:
-[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:540:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct village_interfaces::srv::TaskAssign_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct village_interfaces::srv::TaskAssign_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktask_index[m[K’
-  540 |     response->[01;31m[Ktask_index[m[K = task_result_one_dimensional;
-      |               [01;31m[K^~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/operator_node.dir/build.make:76：CMakeFiles/operator_node.dir/src/operator.cpp.o] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/operator_node.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2

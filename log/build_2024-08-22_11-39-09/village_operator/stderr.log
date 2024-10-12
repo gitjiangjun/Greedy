@@ -1,7 +1,0 @@
-[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In member function ‘[01m[Kvoid TaskAssignServer::assignTasks(const std::vector<int>&, std::shared_ptr<village_interfaces::srv::TaskAssign_Response_<std::allocator<void> > >)[m[K’:
-[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:367:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktask_value[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
-  367 |             int [01;35m[Ktask_value[m[K = task_sequence[i + 1];
-      |                 [01;35m[K^~~~~~~~~~[m[K
-[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:368:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktask_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
-  368 |             int [01;35m[Ktask_time[m[K = task_sequence[i + 2];
-      |                 [01;35m[K^~~~~~~~~[m[K
