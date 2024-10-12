@@ -1,0 +1,50 @@
+[0.035s] Invoking command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator': AMENT_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_operator -- -j12 -l12
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target operator_node[0m
+[0.129s] [ 50%] [32mBuilding CXX object CMakeFiles/operator_node.dir/src/operator.cpp.o[0m
+[3.313s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.314s]                  from [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:2[m[K:
+[3.314s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In lambda function:
+[3.314s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:562:53:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%zu[m[K’ expects argument of type ‘[01m[Ksize_t[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.314s]   562 |                     RCLCPP_INFO(this->get_logger(), [01;35m[K"操作员 %zu 完成任务，设置为空闲状态。"[m[K, [32m[Kselected_operator_index[m[K);
+[3.314s]       |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.314s]       |                                                                                              [32m[K|[m[K
+[3.314s]       |                                                                                              [32m[Kint[m[K
+[3.314s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:562:63:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.315s]   562 |                     RCLCPP_INFO(this->get_logger(), "操作员 [01;36m[K%zu[m[K 完成任务，设置为空闲状态。", selected_operator_index);
+[3.315s]       |                                                             [01;36m[K~~^[m[K
+[3.315s]       |                                                               [01;36m[K|[m[K
+[3.315s]       |                                                               [01;36m[Klong unsigned int[m[K
+[3.315s]       |                                                             [32m[K%u[m[K
+[7.082s] [100%] [32m[1mLinking CXX executable operator_node[0m
+[7.389s] [100%] Built target operator_node
+[7.401s] Invoked command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator' returned '0': AMENT_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_operator -- -j12 -l12
+[7.471s] Invoking command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator': AMENT_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lichaoyue/Desktop/tasktown_ws/build/village_operator
+[7.481s] -- Install configuration: ""
+[7.481s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/ament_index/resource_index/package_run_dependencies/village_operator
+[7.481s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/ament_index/resource_index/parent_prefix_path/village_operator
+[7.481s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/environment/ament_prefix_path.sh
+[7.481s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/environment/ament_prefix_path.dsv
+[7.481s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/environment/path.sh
+[7.482s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/environment/path.dsv
+[7.482s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/local_setup.bash
+[7.482s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/local_setup.sh
+[7.482s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/local_setup.zsh
+[7.482s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/local_setup.dsv
+[7.482s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/package.dsv
+[7.482s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/ament_index/resource_index/packages/village_operator
+[7.482s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/cmake/village_operatorConfig.cmake
+[7.483s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/cmake/village_operatorConfig-version.cmake
+[7.483s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/package.xml
+[7.483s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/lib/village_operator/operator_node
+[7.486s] -- Set runtime path of "/home/lichaoyue/Desktop/tasktown_ws/install/village_operator/lib/village_operator/operator_node" to ""
+[7.490s] Invoked command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator' returned '0': AMENT_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lichaoyue/Desktop/tasktown_ws/build/village_operator

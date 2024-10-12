@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.000776] (-) JobUnselected: {'identifier': 'village_interfaces'}
+[0.000807] (-) JobUnselected: {'identifier': 'village_operator'}
+[0.000821] (-) JobUnselected: {'identifier': 'village_task'}
+[0.000832] (village_taskgroups) JobQueued: {'identifier': 'village_taskgroups', 'dependencies': OrderedDict([('village_interfaces', '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces')])}
+[0.000846] (village_taskgroups) JobStarted: {'identifier': 'village_taskgroups'}
+[0.033419] (village_taskgroups) JobProgress: {'identifier': 'village_taskgroups', 'progress': 'cmake'}
+[0.040903] (village_taskgroups) JobProgress: {'identifier': 'village_taskgroups', 'progress': 'build'}
+[0.040966] (village_taskgroups) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lichaoyue/Desktop/tasktown_ws/build/village_taskgroups', '--', '-j12', '-l12'], 'cwd': '/home/lichaoyue/Desktop/tasktown_ws/build/village_taskgroups', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lichaoyue'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lichaoyue'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/lichaoyue/Desktop/tasktown_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1550'), ('SYSTEMD_EXEC_PID', '1722'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3490'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lichaoyue/Desktop/tasktown_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lichaoyue'), ('JOURNAL_STREAM', '8:37266'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lichaoyue'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lichaoyue-virtual-machine:@/tmp/.ICE-unix/1692,unix/lichaoyue-virtual-machine:/tmp/.ICE-unix/1692'), ('INVOCATION_ID', '2f17a444b748428d8c7988d4a6e36f21'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z1H5N2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7eb22a8617.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lichaoyue/Desktop/tasktown_ws/build/village_taskgroups'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble')]), 'shell': False}
+[0.099629] (-) TimerEvent: {}
+[0.146424] (village_taskgroups) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target taskgroups_node\x1b[0m\n'}
+[0.199198] (village_taskgroups) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/taskgroups_node.dir/src/taskgroups.cpp.o\x1b[0m\n'}
+[0.200110] (-) TimerEvent: {}
+[0.300826] (-) TimerEvent: {}
+[0.402374] (-) TimerEvent: {}
+[0.504004] (-) TimerEvent: {}
+[0.604502] (-) TimerEvent: {}
+[0.706085] (-) TimerEvent: {}
+[0.807231] (-) TimerEvent: {}
+[0.908847] (-) TimerEvent: {}
+[1.010538] (-) TimerEvent: {}
+[1.111454] (-) TimerEvent: {}
+[1.213301] (-) TimerEvent: {}
+[1.315560] (-) TimerEvent: {}
+[1.416984] (-) TimerEvent: {}
+[1.519454] (-) TimerEvent: {}
+[1.621530] (-) TimerEvent: {}
+[1.722690] (-) TimerEvent: {}
+[1.825355] (-) TimerEvent: {}
+[1.926799] (-) TimerEvent: {}
+[2.027365] (-) TimerEvent: {}
+[2.127656] (-) TimerEvent: {}
+[2.229810] (-) TimerEvent: {}
+[2.330510] (-) TimerEvent: {}
+[2.431184] (-) TimerEvent: {}
+[2.531869] (-) TimerEvent: {}
+[2.632785] (-) TimerEvent: {}
+[2.734759] (-) TimerEvent: {}
+[2.835417] (-) TimerEvent: {}
+[2.936105] (-) TimerEvent: {}
+[3.038034] (-) TimerEvent: {}
+[3.139230] (-) TimerEvent: {}
+[3.240384] (-) TimerEvent: {}
+[3.342072] (-) TimerEvent: {}
+[3.445027] (-) TimerEvent: {}
+[3.545740] (-) TimerEvent: {}
+[3.646864] (-) TimerEvent: {}
+[3.748245] (-) TimerEvent: {}
+[3.849040] (-) TimerEvent: {}
+[3.950544] (-) TimerEvent: {}
+[4.051919] (-) TimerEvent: {}
+[4.152366] (-) TimerEvent: {}
+[4.253029] (-) TimerEvent: {}
+[4.355267] (-) TimerEvent: {}
+[4.457425] (-) TimerEvent: {}
+[4.558125] (-) TimerEvent: {}
+[4.659146] (-) TimerEvent: {}
+[4.760089] (-) TimerEvent: {}
+[4.861063] (-) TimerEvent: {}
+[4.962660] (-) TimerEvent: {}
+[5.064353] (-) TimerEvent: {}
+[5.165729] (-) TimerEvent: {}
+[5.267255] (-) TimerEvent: {}
+[5.369732] (-) TimerEvent: {}
+[5.470555] (-) TimerEvent: {}
+[5.571740] (-) TimerEvent: {}
+[5.673018] (-) TimerEvent: {}
+[5.774254] (-) TimerEvent: {}
+[5.877577] (-) TimerEvent: {}
+[5.978559] (-) TimerEvent: {}
+[6.081751] (-) TimerEvent: {}
+[6.182684] (-) TimerEvent: {}
+[6.283704] (-) TimerEvent: {}
+[6.385220] (-) TimerEvent: {}
+[6.486867] (-) TimerEvent: {}
+[6.587671] (-) TimerEvent: {}
+[6.689566] (-) TimerEvent: {}
+[6.790358] (-) TimerEvent: {}
+[6.891312] (-) TimerEvent: {}
+[6.992151] (-) TimerEvent: {}
+[7.092950] (-) TimerEvent: {}
+[7.194117] (-) TimerEvent: {}
+[7.295482] (-) TimerEvent: {}
+[7.397035] (-) TimerEvent: {}
+[7.498028] (-) TimerEvent: {}
+[7.598847] (-) TimerEvent: {}
+[7.700068] (-) TimerEvent: {}
+[7.801450] (-) TimerEvent: {}
+[7.904572] (-) TimerEvent: {}
+[8.006127] (-) TimerEvent: {}
+[8.107247] (-) TimerEvent: {}
+[8.208615] (-) TimerEvent: {}
+[8.309294] (-) TimerEvent: {}
+[8.410871] (-) TimerEvent: {}
+[8.512535] (-) TimerEvent: {}
+[8.614464] (-) TimerEvent: {}
+[8.715652] (-) TimerEvent: {}
+[8.816273] (-) TimerEvent: {}
+[8.917127] (-) TimerEvent: {}
+[9.018815] (-) TimerEvent: {}
+[9.119651] (-) TimerEvent: {}
+[9.220586] (-) TimerEvent: {}
+[9.321943] (-) TimerEvent: {}
+[9.422580] (-) TimerEvent: {}
+[9.525360] (-) TimerEvent: {}
+[9.626584] (-) TimerEvent: {}
+[9.727944] (-) TimerEvent: {}
+[9.829680] (-) TimerEvent: {}
+[9.907670] (village_taskgroups) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable taskgroups_node\x1b[0m\n'}
+[9.930253] (-) TimerEvent: {}
+[10.031191] (-) TimerEvent: {}
+[10.132486] (-) TimerEvent: {}
+[10.233761] (-) TimerEvent: {}
+[10.329287] (village_taskgroups) StdoutLine: {'line': b'[100%] Built target taskgroups_node\n'}
+[10.334363] (-) TimerEvent: {}
+[10.360775] (village_taskgroups) CommandEnded: {'returncode': 0}
+[10.435981] (-) TimerEvent: {}
+[10.470343] (village_taskgroups) JobProgress: {'identifier': 'village_taskgroups', 'progress': 'install'}
+[10.494804] (village_taskgroups) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lichaoyue/Desktop/tasktown_ws/build/village_taskgroups'], 'cwd': '/home/lichaoyue/Desktop/tasktown_ws/build/village_taskgroups', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lichaoyue'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lichaoyue'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/lichaoyue/Desktop/tasktown_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1550'), ('SYSTEMD_EXEC_PID', '1722'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3490'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lichaoyue/Desktop/tasktown_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lichaoyue'), ('JOURNAL_STREAM', '8:37266'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lichaoyue'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lichaoyue-virtual-machine:@/tmp/.ICE-unix/1692,unix/lichaoyue-virtual-machine:/tmp/.ICE-unix/1692'), ('INVOCATION_ID', '2f17a444b748428d8c7988d4a6e36f21'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z1H5N2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7eb22a8617.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lichaoyue/Desktop/tasktown_ws/build/village_taskgroups'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble')]), 'shell': False}
+[10.513010] (village_taskgroups) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.513436] (village_taskgroups) StdoutLine: {'line': b'-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups/share/ament_index/resource_index/package_run_dependencies/village_taskgroups\n'}
+[10.514197] (village_taskgroups) StdoutLine: {'line': b'-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups/share/ament_index/resource_index/parent_prefix_path/village_taskgroups\n'}
+[10.514468] (village_taskgroups) StdoutLine: {'line': b'-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups/share/village_taskgroups/environment/ament_prefix_path.sh\n'}
+[10.514663] (village_taskgroups) StdoutLine: {'line': b'-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups/share/village_taskgroups/environment/ament_prefix_path.dsv\n'}
+[10.514825] (village_taskgroups) StdoutLine: {'line': b'-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups/share/village_taskgroups/environment/path.sh\n'}
+[10.514981] (village_taskgroups) StdoutLine: {'line': b'-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups/share/village_taskgroups/environment/path.dsv\n'}
+[10.515283] (village_taskgroups) StdoutLine: {'line': b'-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups/share/village_taskgroups/local_setup.bash\n'}
+[10.515547] (village_taskgroups) StdoutLine: {'line': b'-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups/share/village_taskgroups/local_setup.sh\n'}
+[10.516361] (village_taskgroups) StdoutLine: {'line': b'-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups/share/village_taskgroups/local_setup.zsh\n'}
+[10.516548] (village_taskgroups) StdoutLine: {'line': b'-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups/share/village_taskgroups/local_setup.dsv\n'}
+[10.516857] (village_taskgroups) StdoutLine: {'line': b'-- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups/share/village_taskgroups/package.dsv\n'}
+[10.517242] (village_taskgroups) StdoutLine: {'line': b'-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups/share/ament_index/resource_index/packages/village_taskgroups\n'}
+[10.517563] (village_taskgroups) StdoutLine: {'line': b'-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups/share/village_taskgroups/cmake/village_taskgroupsConfig.cmake\n'}
+[10.517731] (village_taskgroups) StdoutLine: {'line': b'-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups/share/village_taskgroups/cmake/village_taskgroupsConfig-version.cmake\n'}
+[10.518209] (village_taskgroups) StdoutLine: {'line': b'-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups/share/village_taskgroups/package.xml\n'}
+[10.518432] (village_taskgroups) StdoutLine: {'line': b'-- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups/lib/village_taskgroups/taskgroups_node\n'}
+[10.519098] (village_taskgroups) StdoutLine: {'line': b'-- Set runtime path of "/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups/lib/village_taskgroups/taskgroups_node" to ""\n'}
+[10.531150] (village_taskgroups) CommandEnded: {'returncode': 0}
+[10.537728] (-) TimerEvent: {}
+[10.638509] (-) TimerEvent: {}
+[10.683047] (village_taskgroups) JobEnded: {'identifier': 'village_taskgroups', 'rc': 0}
+[10.685965] (-) EventReactorShutdown: {}

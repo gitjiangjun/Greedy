@@ -1,0 +1,37 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/task_node.dir/src/task.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_task/src/task.cpp:10[m[K:
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_task/src/task.cpp:[m[K In member function ‘[01m[Kvoid TaskRequestNode::send_tasks_request()[m[K’:
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_task/src/task.cpp:80:37:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+   80 |     RCLCPP_INFO(this->get_logger(), [01;35m[K""[m[K);
+      |                                     [01;35m[K^~[m[K
+[100%] [32m[1mLinking CXX executable task_node[0m
+[100%] Built target task_node
+-- Install configuration: ""
+-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/ament_index/resource_index/package_run_dependencies/village_task
+-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/ament_index/resource_index/parent_prefix_path/village_task
+-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/environment/path.sh
+-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/environment/path.dsv
+-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/local_setup.bash
+-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/local_setup.sh
+-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/local_setup.zsh
+-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/local_setup.dsv
+-- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/package.dsv
+-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/ament_index/resource_index/packages/village_task
+-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/cmake/village_taskConfig.cmake
+-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/cmake/village_taskConfig-version.cmake
+-- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/package.xml
+-- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/lib/village_task/task_node
+-- Set runtime path of "/home/lichaoyue/Desktop/tasktown_ws/install/village_task/lib/village_task/task_node" to ""

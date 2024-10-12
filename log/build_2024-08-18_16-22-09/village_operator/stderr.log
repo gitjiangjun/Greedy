@@ -1,0 +1,59 @@
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In member function ‘[01m[Kvoid TaskUpdateNode::handle_task_update_sequence_callback(std::shared_ptr<village_interfaces::srv::TaskUpdate_Request_<std::allocator<void> > >, std::shared_ptr<village_interfaces::srv::TaskUpdate_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:198:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_task_sequence_mutex[m[K’ was not declared in this scope; did you mean ‘[01m[Kglobal_task_sequence[m[K’?
+  198 |             std::lock_guard<std::mutex> lock([01;31m[Kglobal_task_sequence_mutex[m[K);  // 20240818修改：锁定全局任务序列
+      |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                              [32m[Kglobal_task_sequence[m[K
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In member function ‘[01m[Kvoid TaskAssignServer::assignTasks(const std::vector<int>&, std::shared_ptr<village_interfaces::srv::TaskAssign_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:369:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::condition_variable::wait(std::lock_guard<std::mutex>&, TaskAssignServer::assignTasks(const std::vector<int>&, std::shared_ptr<village_interfaces::srv::TaskAssign_Response_<std::allocator<void> > >)::<lambda()>)[m[K’
+  369 |             [01;31m[Kcv.wait(lock, [this, &best_operator_index, &max_success_rate, &task_sequence, task_index] {[m[K
+      |             [01;31m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  370 | [01;31m[K                for (size_t operator_index = 0; operator_index < operators_.size(); ++operator_index)[m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  371 | [01;31m[K                {[m[K
+      |                 [01;31m[K~[m[K   
+  372 | [01;31m[K                    if (!manager.isOperatorBusy(operator_index))[m[K
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  373 | [01;31m[K                    {[m[K
+      |                     [01;31m[K~[m[K
+  374 | [01;31m[K                        double success_rate = operators_[operator_index].getSuccessRate(task_sequence[task_index]);[m[K
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  375 | [01;31m[K                        if (success_rate > max_success_rate)[m[K
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  376 | [01;31m[K                        {[m[K
+      |                         [01;31m[K~[m[K
+  377 | [01;31m[K                            max_success_rate = success_rate;[m[K
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  378 | [01;31m[K                            best_operator_index = operator_index;[m[K
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  379 | [01;31m[K                        }[m[K
+      |                         [01;31m[K~[m[K
+  380 | [01;31m[K                    }[m[K
+      |                     [01;31m[K~[m[K
+  381 | [01;31m[K                }[m[K
+      |                 [01;31m[K~[m[K   
+  382 | [01;31m[K                return best_operator_index != -1;[m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  383 | [01;31m[K            })[m[K;
+      |             [01;31m[K~~[m[K      
+In file included from [01m[K/usr/include/c++/11/future:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:2[m[K:
+[01m[K/usr/include/c++/11/condition_variable:100:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Predicate> void std::condition_variable::wait(std::unique_lock<std::mutex>&, _Predicate)[m[K’
+  100 |       [01;36m[Kwait[m[K(unique_lock<mutex>& __lock, _Predicate __p)
+      |       [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/11/condition_variable:100:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:369:21:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Klock[m[K’ (type ‘[01m[Kstd::lock_guard<std::mutex>[m[K’) to type ‘[01m[Kstd::unique_lock<std::mutex>&[m[K’
+  369 |             cv.wait([01;36m[Klock[m[K, [this, &best_operator_index, &max_success_rate, &task_sequence, task_index] {
+      |                     [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/future:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:2[m[K:
+[01m[K/usr/include/c++/11/condition_variable:96:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::condition_variable::wait(std::unique_lock<std::mutex>&)[m[K’
+   96 |     [01;36m[Kwait[m[K(unique_lock<mutex>& __lock) noexcept;
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/11/condition_variable:96:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+gmake[2]: *** [CMakeFiles/operator_node.dir/build.make:76: CMakeFiles/operator_node.dir/src/operator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/operator_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

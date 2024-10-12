@@ -1,0 +1,7 @@
+[0.043s] Invoking command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_operator -- -j12 -l12
+[0.176s] [35m[1mConsolidate compiler generated dependencies of target operator_node[0m
+[0.238s] [ 50%] [32mBuilding CXX object CMakeFiles/operator_node.dir/src/operator.cpp.o[0m
+[1.761s] gmake[2]: *** [CMakeFiles/operator_node.dir/build.make:76: CMakeFiles/operator_node.dir/src/operator.cpp.o] Interrupt
+[1.762s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/operator_node.dir/all] Interrupt
+[1.763s] gmake: *** [Makefile:146: all] Interrupt
+[1.774s] Invoked command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator' returned '-2': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_operator -- -j12 -l12

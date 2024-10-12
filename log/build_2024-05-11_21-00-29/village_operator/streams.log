@@ -1,0 +1,50 @@
+[0.042s] Invoking command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_operator -- -j12 -l12
+[0.179s] [35m[1mConsolidate compiler generated dependencies of target operator_node[0m
+[0.232s] [ 50%] [32mBuilding CXX object CMakeFiles/operator_node.dir/src/operator.cpp.o[0m
+[7.643s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.644s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[7.644s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.644s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.644s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.644s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.644s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.645s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.645s]                  from [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:10[m[K:
+[7.646s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In member function ‘[01m[Kvoid TaskAssignServer::assignTasks(const std::vector<int>&, std::shared_ptr<village_interfaces::srv::TaskAssign_Response_<std::allocator<void> > >)[m[K’:
+[7.646s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:166:50:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[7.646s]   166 |                 RCLCPP_ERROR(this->get_logger(), [01;35m[K"无效的任务索引: %ld"[m[K, [32m[Ktask_id[m[K);
+[7.647s]       |                                                  [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~[m[K
+[7.647s]       |                                                                         [32m[K|[m[K
+[7.647s]       |                                                                         [32m[Kint32_t {aka int}[m[K
+[7.648s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:166:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[7.648s]   166 |             RCLCPP_ERROR(this->get_logger(), "无效的任务索引: [01;36m[K%ld[m[K", task_id);
+[7.648s]       |                                                               [01;36m[K~~^[m[K
+[7.649s]       |                                                                 [01;36m[K|[m[K
+[7.649s]       |                                                                 [01;36m[Klong int[m[K
+[7.649s]       |                                                               [32m[K%d[m[K
+[11.970s] [100%] [32m[1mLinking CXX executable operator_node[0m
+[12.486s] [100%] Built target operator_node
+[12.520s] Invoked command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator' returned '0': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_operator -- -j12 -l12
+[12.656s] Invoking command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --install /home/lichaoyue/Desktop/tasktown_ws/build/village_operator
+[12.676s] -- Install configuration: ""
+[12.678s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/ament_index/resource_index/package_run_dependencies/village_operator
+[12.678s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/ament_index/resource_index/parent_prefix_path/village_operator
+[12.678s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/environment/ament_prefix_path.sh
+[12.678s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/environment/ament_prefix_path.dsv
+[12.679s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/environment/path.sh
+[12.680s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/environment/path.dsv
+[12.680s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/local_setup.bash
+[12.680s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/local_setup.sh
+[12.680s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/local_setup.zsh
+[12.680s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/local_setup.dsv
+[12.680s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/package.dsv
+[12.680s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/ament_index/resource_index/packages/village_operator
+[12.680s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/cmake/village_operatorConfig.cmake
+[12.681s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/cmake/village_operatorConfig-version.cmake
+[12.682s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/share/village_operator/package.xml
+[12.682s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_operator/lib/village_operator/operator_node
+[12.685s] -- Set runtime path of "/home/lichaoyue/Desktop/tasktown_ws/install/village_operator/lib/village_operator/operator_node" to ""
+[12.692s] Invoked command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator' returned '0': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --install /home/lichaoyue/Desktop/tasktown_ws/build/village_operator

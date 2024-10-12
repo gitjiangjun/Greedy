@@ -1,0 +1,22 @@
+[0.023s] Invoking command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_task': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_task -- -j12 -l12
+[0.087s] [100%] Built target task_node
+[0.097s] Invoked command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_task' returned '0': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_task -- -j12 -l12
+[0.197s] Invoking command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_task': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --install /home/lichaoyue/Desktop/tasktown_ws/build/village_task
+[0.209s] -- Install configuration: ""
+[0.209s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/ament_index/resource_index/package_run_dependencies/village_task
+[0.209s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/ament_index/resource_index/parent_prefix_path/village_task
+[0.209s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/environment/ament_prefix_path.sh
+[0.209s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/environment/ament_prefix_path.dsv
+[0.209s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/environment/path.sh
+[0.209s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/environment/path.dsv
+[0.209s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/local_setup.bash
+[0.209s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/local_setup.sh
+[0.210s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/local_setup.zsh
+[0.210s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/local_setup.dsv
+[0.210s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/package.dsv
+[0.210s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/ament_index/resource_index/packages/village_task
+[0.210s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/cmake/village_taskConfig.cmake
+[0.210s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/cmake/village_taskConfig-version.cmake
+[0.210s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/package.xml
+[0.210s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/lib/village_task/task_node
+[0.216s] Invoked command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_task' returned '0': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --install /home/lichaoyue/Desktop/tasktown_ws/build/village_task

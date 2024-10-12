@@ -1,0 +1,11 @@
+[0.029s] Invoking command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_operator -- -j12 -l12
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target operator_node[0m
+[0.112s] [ 50%] [32mBuilding CXX object CMakeFiles/operator_node.dir/src/operator.cpp.o[0m
+[3.195s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In member function ‘[01m[Kvoid TaskAssignServer::assignTasks(const std::vector<int>&, std::shared_ptr<village_interfaces::srv::TaskAssign_Response_<std::allocator<void> > >)[m[K’:
+[3.195s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:533:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TaskAssignmentManager[m[K’ has no member named ‘[01m[KgetRewardMatrix[m[K’
+[3.195s]   533 |             const auto &reward_matrix = manager.[01;31m[KgetRewardMatrix[m[K();
+[3.195s]       |                                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.653s] gmake[2]: *** [CMakeFiles/operator_node.dir/build.make:76：CMakeFiles/operator_node.dir/src/operator.cpp.o] 错误 1
+[4.654s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/operator_node.dir/all] 错误 2
+[4.654s] gmake: *** [Makefile:146：all] 错误 2
+[4.662s] Invoked command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator' returned '2': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_operator -- -j12 -l12

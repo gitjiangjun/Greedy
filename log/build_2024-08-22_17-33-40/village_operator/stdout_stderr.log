@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target operator_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/operator_node.dir/src/operator.cpp.o[0m
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:516:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  516 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:254:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  254 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In member function ‘[01m[Kvoid TaskAssignServer::assignTasks(const std::vector<int>&, std::shared_ptr<village_interfaces::srv::TaskAssign_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:403:25:[m[K [01;31m[Kerror: [m[K‘[01m[KremoveCompletedTaskFromGlobalSequence[m[K’ was not declared in this scope
+  403 |                         [01;31m[KremoveCompletedTaskFromGlobalSequence[m[K(best_task.first.begin(), best_task.first.end());
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:464:5:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  464 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K At global scope:
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:516:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  516 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/operator_node.dir/build.make:76: CMakeFiles/operator_node.dir/src/operator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/operator_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

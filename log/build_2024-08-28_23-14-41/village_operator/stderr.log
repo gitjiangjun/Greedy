@@ -1,0 +1,11 @@
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In lambda function:
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:436:77:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Ktask_assign_lambda[m[K’ before deduction of ‘[01m[Kauto[m[K’
+  436 |                 std::thread([this, selected_operator_index, best_task_time, [01;31m[Ktask_assign_lambda[m[K] {
+      |                                                                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In lambda function:
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:443:21:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Ktask_assign_lambda[m[K’ before deduction of ‘[01m[Kauto[m[K’
+  443 |                     [01;31m[Ktask_assign_lambda[m[K();  // 重新启动任务分配
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/operator_node.dir/build.make:76：CMakeFiles/operator_node.dir/src/operator.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/operator_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

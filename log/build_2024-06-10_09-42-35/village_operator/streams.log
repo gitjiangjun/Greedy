@@ -1,0 +1,14 @@
+[0.019s] Invoking command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_operator -- -j12 -l12
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target operator_node[0m
+[0.112s] [ 50%] [32mBuilding CXX object CMakeFiles/operator_node.dir/src/operator.cpp.o[0m
+[3.473s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.473s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:550:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto node[m[K’
+[3.473s]   550 |     auto [01;31m[Knode[m[K = std::make_shared<TaskAssignServer>("operator");        // 创建任务分配服务端节点，不传递任何参数，创建任务分配服务端节点
+[3.473s]       |          [01;31m[K^~~~[m[K
+[3.473s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:549:10:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::shared_ptr<TaskUpdateNode> node[m[K’
+[3.473s]   549 |     auto [01;36m[Knode[m[K = std::make_shared<TaskUpdateNode>("task_update_node");  // 创建任务更新服务端节点，不传递任何参数，创建任务更新服务端节点
+[3.473s]       |          [01;36m[K^~~~[m[K
+[4.728s] gmake[2]: *** [CMakeFiles/operator_node.dir/build.make:76: CMakeFiles/operator_node.dir/src/operator.cpp.o] Error 1
+[4.729s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/operator_node.dir/all] Error 2
+[4.729s] gmake: *** [Makefile:146: all] Error 2
+[4.734s] Invoked command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator' returned '2': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_operator -- -j12 -l12

@@ -1,0 +1,296 @@
+[0.042s] Invoking command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_interfaces -- -j12 -l12
+[0.103s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.441s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.514s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.523s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.535s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.564s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.600s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.179s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.199s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.075s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.411s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.923s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.980s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.041s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.041s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.041s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.205s] -- Added test 'lint_cmake' to check CMake code style
+[4.208s] -- Added test 'xmllint' to check XML markup files
+[4.226s] -- Configuring done
+[4.348s] -- Generating done
+[4.363s] -- Build files have been written to: /home/lichaoyue/Desktop/tasktown_ws/build/village_interfaces
+[4.440s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.473s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.504s] [  4%] Built target ament_cmake_python_copy_village_interfaces
+[5.098s] running egg_info
+[5.101s] writing village_interfaces.egg-info/PKG-INFO
+[5.102s] writing dependency_links to village_interfaces.egg-info/dependency_links.txt
+[5.103s] writing top-level names to village_interfaces.egg-info/top_level.txt
+[5.108s] reading manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[5.110s] writing manifest file 'village_interfaces.egg-info/SOURCES.txt'
+[5.174s] [  4%] Built target ament_cmake_python_build_village_interfaces_egg
+[5.463s] [  4%] Built target village_interfaces__cpp
+[5.502s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.502s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.506s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.510s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_generator_c[0m
+[5.553s] [ 14%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/task__functions.c.o[0m
+[5.553s] [ 14%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o[0m
+[5.553s] [ 17%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/task_assign__functions.c.o[0m
+[5.715s] [ 19%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_generator_c.so[0m
+[5.829s] [ 19%] Built target village_interfaces__rosidl_generator_c
+[5.866s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.866s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.870s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.239s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_cpp[0m
+[6.279s] [ 27%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/msg/task__type_support.cpp.o[0m
+[6.281s] [ 29%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/task_assign__type_support.cpp.o[0m
+[6.292s] [ 31%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.o[0m
+[6.380s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_introspection_cpp[0m
+[6.423s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[6.435s] [ 34%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/task__type_support.cpp.o[0m
+[6.435s] [ 36%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/task_assign__type_support.cpp.o[0m
+[6.436s] [ 38%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.o[0m
+[6.519s] [ 40%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/task__type_support.cpp.o[0m
+[6.525s] [ 42%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/task_assign__type_support.cpp.o[0m
+[6.537s] [ 44%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.o[0m
+[6.703s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_c[0m
+[6.768s] [ 46%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/msg/task__type_support.cpp.o[0m
+[6.912s] [ 48%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.o[0m
+[6.994s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_introspection_c[0m
+[7.052s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c[0m
+[7.064s] [ 51%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/task__type_support.c.o[0m
+[7.091s] [ 53%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/task_assign__type_support.cpp.o[0m
+[7.100s] [ 55%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/task__type_support_c.cpp.o[0m
+[7.167s] [ 57%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.o[0m
+[7.207s] [ 59%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o[0m
+[7.248s] [ 61%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_c.so[0m
+[7.294s] [ 63%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/task_assign__type_support.c.o[0m
+[7.297s] [ 65%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_cpp.so[0m
+[7.365s] [ 68%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/task_assign__type_support_c.cpp.o[0m
+[7.441s] [ 70%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_typesupport_introspection_c.so[0m
+[7.472s] [ 70%] Built target village_interfaces__rosidl_typesupport_c
+[7.508s] [ 70%] Built target village_interfaces__rosidl_typesupport_cpp
+[7.606s] [ 70%] Built target village_interfaces__rosidl_typesupport_introspection_c
+[7.804s] [ 72%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[8.015s] [ 72%] Built target village_interfaces__rosidl_typesupport_introspection_cpp
+[8.031s] [ 74%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.245s] [ 74%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp
+[8.385s] [ 76%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[8.605s] [ 76%] Built target village_interfaces__rosidl_typesupport_fastrtps_c
+[8.675s] [ 76%] Built target village_interfaces
+[8.748s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.547s] [ 78%] Built target village_interfaces__py
+[10.585s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_generator_py[0m
+[10.620s] [ 80%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_py.dir/rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.o[0m
+[10.634s] [ 82%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_py.dir/rosidl_generator_py/village_interfaces/msg/_task_s.c.o[0m
+[10.635s] [ 85%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_py.dir/rosidl_generator_py/village_interfaces/srv/_task_assign_s.c.o[0m
+[10.946s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/libvillage_interfaces__rosidl_generator_py.so[0m
+[11.087s] [ 87%] Built target village_interfaces__rosidl_generator_py
+[11.125s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[11.126s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[11.128s] [35m[1mConsolidate compiler generated dependencies of target village_interfaces__rosidl_typesupport_c__pyext[0m
+[11.178s] [ 93%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.179s] [ 93%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.179s] [ 93%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.472s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.473s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.477s] [100%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.604s] [100%] Built target village_interfaces__rosidl_typesupport_c__pyext
+[11.604s] [100%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext
+[11.604s] [100%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[11.638s] Invoked command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_interfaces -- -j12 -l12
+[12.226s] Invoking command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lichaoyue/Desktop/tasktown_ws/build/village_interfaces
+[12.247s] -- Install configuration: ""
+[12.248s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/ament_index/resource_index/rosidl_interfaces/village_interfaces
+[12.249s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces
+[12.249s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[12.250s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_generator_c__visibility_control.h
+[12.250s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[12.250s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/task__functions.c
+[12.251s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/task__type_support.h
+[12.251s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/task__struct.h
+[12.251s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/task__functions.h
+[12.253s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/task.h
+[12.253s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv
+[12.253s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail
+[12.253s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__functions.h
+[12.255s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/task_assign__struct.h
+[12.257s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__type_support.h
+[12.257s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/task_assign__type_support.h
+[12.258s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/task_assign__functions.c
+[12.259s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__functions.c
+[12.259s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__struct.h
+[12.259s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/task_assign__functions.h
+[12.261s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/borrow_money.h
+[12.261s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/task_assign.h
+[12.262s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/environment/library_path.sh
+[12.262s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/environment/library_path.dsv
+[12.263s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so
+[12.265s] -- Set runtime path of "/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so" to ""
+[12.266s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces
+[12.266s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[12.267s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[12.267s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/task__rosidl_typesupport_fastrtps_c.h
+[12.267s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.268s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv
+[12.268s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail
+[12.268s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_fastrtps_c.h
+[12.268s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/task_assign__rosidl_typesupport_fastrtps_c.h
+[12.269s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so
+[12.269s] -- Set runtime path of "/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[12.270s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces
+[12.270s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[12.271s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[12.271s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/task__builder.hpp
+[12.271s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/task__traits.hpp
+[12.271s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/task__struct.hpp
+[12.272s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/task.hpp
+[12.272s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv
+[12.272s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail
+[12.273s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/task_assign__traits.hpp
+[12.273s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/task_assign__builder.hpp
+[12.273s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__builder.hpp
+[12.273s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__traits.hpp
+[12.274s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__struct.hpp
+[12.274s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/task_assign__struct.hpp
+[12.274s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/borrow_money.hpp
+[12.275s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/task_assign.hpp
+[12.275s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces
+[12.275s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[12.275s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.275s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[12.275s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/task__rosidl_typesupport_fastrtps_cpp.hpp
+[12.275s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/dds_fastrtps
+[12.275s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv
+[12.276s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail
+[12.276s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/task_assign__rosidl_typesupport_fastrtps_cpp.hpp
+[12.277s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_fastrtps_cpp.hpp
+[12.277s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/dds_fastrtps
+[12.278s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[12.279s] -- Set runtime path of "/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.279s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces
+[12.279s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[12.280s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[12.280s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/task__rosidl_typesupport_introspection_c.h
+[12.280s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/task__type_support.c
+[12.281s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.281s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv
+[12.282s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail
+[12.282s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_c.h
+[12.282s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/task_assign__rosidl_typesupport_introspection_c.h
+[12.282s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__type_support.c
+[12.283s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/task_assign__type_support.c
+[12.283s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so
+[12.283s] -- Set runtime path of "/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[12.284s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so
+[12.284s] -- Set runtime path of "/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so" to ""
+[12.285s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces
+[12.285s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg
+[12.285s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail
+[12.286s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/task__rosidl_typesupport_introspection_cpp.hpp
+[12.286s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/msg/detail/task__type_support.cpp
+[12.286s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv
+[12.287s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail
+[12.287s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__type_support.cpp
+[12.288s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/task_assign__type_support.cpp
+[12.288s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/task_assign__rosidl_typesupport_introspection_cpp.hpp
+[12.288s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/include/village_interfaces/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_cpp.hpp
+[12.289s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so
+[12.289s] -- Set runtime path of "/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[12.289s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so
+[12.290s] -- Set runtime path of "/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so" to ""
+[12.290s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/environment/pythonpath.sh
+[12.290s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/environment/pythonpath.dsv
+[12.292s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info
+[12.292s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[12.293s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[12.294s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.295s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.297s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces
+[12.297s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.298s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.299s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.299s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.299s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c
+[12.300s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[12.301s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/__init__.py
+[12.301s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg
+[12.301s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/_task_s.c
+[12.302s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/_task.py
+[12.303s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/__init__.py
+[12.303s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/libvillage_interfaces__rosidl_generator_py.so
+[12.304s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv
+[12.305s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/_borrow_money.py
+[12.305s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/_task_assign.py
+[12.305s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/_task_assign_s.c
+[12.305s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/_borrow_money_s.c
+[12.306s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/__init__.py
+[12.411s] Listing '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces'...
+[12.411s] Compiling '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/__init__.py'...
+[12.411s] Listing '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg'...
+[12.412s] Compiling '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/__init__.py'...
+[12.412s] Compiling '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/msg/_task.py'...
+[12.412s] Listing '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv'...
+[12.412s] Compiling '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/__init__.py'...
+[12.413s] Compiling '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/_borrow_money.py'...
+[12.413s] Compiling '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/srv/_task_assign.py'...
+[12.421s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.423s] -- Set runtime path of "/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.423s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.425s] -- Set runtime path of "/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.425s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.426s] -- Set runtime path of "/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.426s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_py.so
+[12.427s] -- Set runtime path of "/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_py.so" to ""
+[12.427s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/msg/Task.idl
+[12.427s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/srv/BorrowMoney.idl
+[12.427s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/srv/TaskAssign.idl
+[12.428s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/msg/Task.msg
+[12.428s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/srv/BorrowMoney.srv
+[12.428s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/srv/BorrowMoney_Request.msg
+[12.429s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/srv/BorrowMoney_Response.msg
+[12.429s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/srv/TaskAssign.srv
+[12.429s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/srv/TaskAssign_Request.msg
+[12.431s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/srv/TaskAssign_Response.msg
+[12.433s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/ament_index/resource_index/package_run_dependencies/village_interfaces
+[12.433s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/ament_index/resource_index/parent_prefix_path/village_interfaces
+[12.434s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.sh
+[12.435s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.dsv
+[12.437s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/environment/path.sh
+[12.437s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/environment/path.dsv
+[12.439s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/local_setup.bash
+[12.439s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/local_setup.sh
+[12.439s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/local_setup.zsh
+[12.439s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/local_setup.dsv
+[12.440s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/package.dsv
+[12.441s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/ament_index/resource_index/packages/village_interfaces
+[12.441s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cExport.cmake
+[12.441s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cExport-noconfig.cmake
+[12.442s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[12.443s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.443s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_cppExport.cmake
+[12.444s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.444s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.445s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[12.445s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.446s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport.cmake
+[12.446s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[12.447s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[12.447s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.448s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport.cmake
+[12.448s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[12.448s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_pyExport.cmake
+[12.448s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/export_village_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[12.449s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake-extras.cmake
+[12.449s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.452s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.453s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[12.454s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[12.455s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.456s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.457s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig.cmake
+[12.457s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig-version.cmake
+[12.458s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/share/village_interfaces/package.xml
+[12.462s] Invoked command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lichaoyue/Desktop/tasktown_ws/build/village_interfaces

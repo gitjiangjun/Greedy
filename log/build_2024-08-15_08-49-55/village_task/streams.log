@@ -1,0 +1,25 @@
+[0.020s] Invoking command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_task': AMENT_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_task -- -j12 -l12
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/task_node.dir/src/task.cpp.o[0m
+[6.846s] [100%] [32m[1mLinking CXX executable task_node[0m
+[7.518s] [100%] Built target task_node
+[7.532s] Invoked command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_task' returned '0': AMENT_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_task -- -j12 -l12
+[7.609s] Invoking command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_task': AMENT_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lichaoyue/Desktop/tasktown_ws/build/village_task
+[7.618s] -- Install configuration: ""
+[7.619s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/ament_index/resource_index/package_run_dependencies/village_task
+[7.619s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/ament_index/resource_index/parent_prefix_path/village_task
+[7.620s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/environment/ament_prefix_path.sh
+[7.620s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/environment/ament_prefix_path.dsv
+[7.620s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/environment/path.sh
+[7.620s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/environment/path.dsv
+[7.620s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/local_setup.bash
+[7.620s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/local_setup.sh
+[7.620s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/local_setup.zsh
+[7.620s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/local_setup.dsv
+[7.620s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/package.dsv
+[7.620s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/ament_index/resource_index/packages/village_task
+[7.621s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/cmake/village_taskConfig.cmake
+[7.621s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/cmake/village_taskConfig-version.cmake
+[7.621s] -- Up-to-date: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/share/village_task/package.xml
+[7.624s] -- Installing: /home/lichaoyue/Desktop/tasktown_ws/install/village_task/lib/village_task/task_node
+[7.627s] -- Set runtime path of "/home/lichaoyue/Desktop/tasktown_ws/install/village_task/lib/village_task/task_node" to ""
+[7.637s] Invoked command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_task' returned '0': AMENT_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lichaoyue/Desktop/tasktown_ws/build/village_task

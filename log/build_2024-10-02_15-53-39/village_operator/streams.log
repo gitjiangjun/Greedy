@@ -1,0 +1,74 @@
+[0.020s] Invoking command in '/home/jj/Greedy/build/village_operator': AMENT_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/jj/Greedy/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jj/Greedy/src/village_operator -DCMAKE_INSTALL_PREFIX=/home/jj/Greedy/install/village_operator
+[0.092s] -- The C compiler identification is GNU 9.4.0
+[0.150s] -- The CXX compiler identification is GNU 9.4.0
+[0.156s] -- Check for working C compiler: /usr/bin/cc
+[0.233s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.234s] -- Detecting C compiler ABI info
+[0.318s] -- Detecting C compiler ABI info - done
+[0.329s] -- Detecting C compile features
+[0.330s] -- Detecting C compile features - done
+[0.333s] -- Check for working CXX compiler: /usr/bin/c++
+[0.426s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.426s] -- Detecting CXX compiler ABI info
+[0.514s] -- Detecting CXX compiler ABI info - done
+[0.527s] -- Detecting CXX compile features
+[0.528s] -- Detecting CXX compile features - done
+[0.530s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.561s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.562s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.808s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.858s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.865s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.964s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.002s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.093s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.158s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.160s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.161s] -- Looking for pthread.h
+[1.247s] -- Looking for pthread.h - found
+[1.247s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.340s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.341s] -- Looking for pthread_create in pthreads
+[1.409s] -- Looking for pthread_create in pthreads - not found
+[1.410s] -- Looking for pthread_create in pthread
+[1.478s] -- Looking for pthread_create in pthread - found
+[1.480s] -- Found Threads: TRUE  
+[1.660s] -- Found village_interfaces: 0.0.0 (/home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake)
+[1.947s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.039s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.040s] -- Configured cppcheck include dirs: 
+[2.040s] -- Configured cppcheck exclude dirs and/or files: 
+[2.041s] -- Added test 'lint_cmake' to check CMake code style
+[2.042s] -- Added test 'uncrustify' to check C / C++ code style
+[2.043s] -- Configured uncrustify additional arguments: 
+[2.043s] -- Added test 'xmllint' to check XML markup files
+[2.049s] -- Configuring done
+[2.064s] -- Generating done
+[2.067s] -- Build files have been written to: /home/jj/Greedy/build/village_operator
+[2.080s] Invoked command in '/home/jj/Greedy/build/village_operator' returned '0': AMENT_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/jj/Greedy/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jj/Greedy/src/village_operator -DCMAKE_INSTALL_PREFIX=/home/jj/Greedy/install/village_operator
+[2.081s] Invoking command in '/home/jj/Greedy/build/village_operator': AMENT_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/jj/Greedy/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jj/Greedy/build/village_operator -- -j2 -l2
+[2.123s] [35m[1mScanning dependencies of target operator_node[0m
+[2.167s] [ 50%] [32mBuilding CXX object CMakeFiles/operator_node.dir/src/operator.cpp.o[0m
+[7.145s] [100%] [32m[1mLinking CXX executable operator_node[0m
+[7.471s] [100%] Built target operator_node
+[7.484s] Invoked command in '/home/jj/Greedy/build/village_operator' returned '0': AMENT_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/jj/Greedy/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jj/Greedy/build/village_operator -- -j2 -l2
+[7.506s] Invoking command in '/home/jj/Greedy/build/village_operator': AMENT_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/jj/Greedy/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jj/Greedy/build/village_operator
+[7.517s] -- Install configuration: ""
+[7.520s] -- Installing: /home/jj/Greedy/install/village_operator/share/ament_index/resource_index/package_run_dependencies/village_operator
+[7.521s] -- Installing: /home/jj/Greedy/install/village_operator/share/ament_index/resource_index/parent_prefix_path/village_operator
+[7.523s] -- Installing: /home/jj/Greedy/install/village_operator/share/village_operator/environment/ament_prefix_path.sh
+[7.524s] -- Installing: /home/jj/Greedy/install/village_operator/share/village_operator/environment/ament_prefix_path.dsv
+[7.524s] -- Installing: /home/jj/Greedy/install/village_operator/share/village_operator/environment/path.sh
+[7.524s] -- Installing: /home/jj/Greedy/install/village_operator/share/village_operator/environment/path.dsv
+[7.525s] -- Installing: /home/jj/Greedy/install/village_operator/share/village_operator/local_setup.bash
+[7.525s] -- Installing: /home/jj/Greedy/install/village_operator/share/village_operator/local_setup.sh
+[7.526s] -- Installing: /home/jj/Greedy/install/village_operator/share/village_operator/local_setup.zsh
+[7.526s] -- Installing: /home/jj/Greedy/install/village_operator/share/village_operator/local_setup.dsv
+[7.526s] -- Installing: /home/jj/Greedy/install/village_operator/share/village_operator/package.dsv
+[7.527s] -- Installing: /home/jj/Greedy/install/village_operator/share/ament_index/resource_index/packages/village_operator
+[7.528s] -- Installing: /home/jj/Greedy/install/village_operator/share/village_operator/cmake/village_operatorConfig.cmake
+[7.528s] -- Installing: /home/jj/Greedy/install/village_operator/share/village_operator/cmake/village_operatorConfig-version.cmake
+[7.529s] -- Up-to-date: /home/jj/Greedy/install/village_operator/share/village_operator/package.xml
+[7.531s] -- Installing: /home/jj/Greedy/install/village_operator/lib/village_operator/operator_node
+[7.532s] -- Set runtime path of "/home/jj/Greedy/install/village_operator/lib/village_operator/operator_node" to ""
+[7.536s] Invoked command in '/home/jj/Greedy/build/village_operator' returned '0': AMENT_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/jj/Greedy/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jj/Greedy/build/village_operator

@@ -1,0 +1,52 @@
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In lambda function:
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:380:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  380 |         for (int y = 0; [01;35m[Ky < n[m[K; y++) {
+      |                         [01;35m[K~~^~~[m[K
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:388:33:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  388 |             for (int yy = 0; [01;35m[Kyy < n[m[K; yy++) {
+      |                              [01;35m[K~~~^~~[m[K
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:392:33:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  392 |             for (int xx = 0; [01;35m[Kxx < n[m[K; xx++) {
+      |                              [01;35m[K~~~^~~[m[K
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:395:33:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  395 |             for (int yy = 0; [01;35m[Kyy < n[m[K; yy++) {
+      |                              [01;35m[K~~~^~~[m[K
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:414:33:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  414 |             for (int yy = 0; [01;35m[Kyy < n[m[K; yy++) {
+      |                              [01;35m[K~~~^~~[m[K
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In member function ‘[01m[Kstd::vector<int> TaskAssignServer::KMAlgorithm(const std::vector<std::vector<double, std::allocator<double> > >&)[m[K’:
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:423:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  423 |     for (int x = 0; [01;35m[Kx < n[m[K; x++) {
+      |                     [01;35m[K~~^~~[m[K
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:427:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  427 |     for (int x = 0; [01;35m[Kx < n[m[K; x++) augment();
+      |                     [01;35m[K~~^~~[m[K
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In member function ‘[01m[Kvoid TaskAssignServer::assignTasks(const std::vector<int>&, std::shared_ptr<village_interfaces::srv::TaskAssign_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:456:33:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  456 |         if ([01;35m[Kidle_operator_index == -1[m[K)
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:2[m[K:
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:516:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%zu[m[K’ expects argument of type ‘[01m[Ksize_t[m[K’, but argument 6 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  516 |                 RCLCPP_INFO(this->get_logger(), [01;35m[K"操作员 %zu 选择任务 %zu, 任务时间: %d, 收益: %.2f"[m[K,
+      |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  517 |                             operator_index, [32m[Ktask_index[m[K, best_task_time, best_reward);
+      |                                             [32m[K~~~~~~~~~~[m[K
+      |                                             [32m[K|[m[K
+      |                                             [32m[Kint[m[K
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:516:72:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  516 |               RCLCPP_INFO(this->get_logger(), "操作员 %zu 选择任务 [01;36m[K%zu[m[K, 任务时间: %d, 收益: %.2f",
+      |                                                                    [01;36m[K~~^[m[K
+      |                                                                      [01;36m[K|[m[K
+      |                                                                      [01;36m[Klong unsigned int[m[K
+      |                                                                    [32m[K%u[m[K

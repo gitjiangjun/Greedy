@@ -1,0 +1,74 @@
+[0.018s] Invoking command in '/home/jj/Greedy/build/village_task': AMENT_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/jj/Greedy/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jj/Greedy/src/village_task -DCMAKE_INSTALL_PREFIX=/home/jj/Greedy/install/village_task
+[0.074s] -- The C compiler identification is GNU 9.4.0
+[0.131s] -- The CXX compiler identification is GNU 9.4.0
+[0.136s] -- Check for working C compiler: /usr/bin/cc
+[0.221s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.225s] -- Detecting C compiler ABI info
+[0.299s] -- Detecting C compiler ABI info - done
+[0.314s] -- Detecting C compile features
+[0.314s] -- Detecting C compile features - done
+[0.317s] -- Check for working CXX compiler: /usr/bin/c++
+[0.398s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.400s] -- Detecting CXX compiler ABI info
+[0.484s] -- Detecting CXX compiler ABI info - done
+[0.499s] -- Detecting CXX compile features
+[0.500s] -- Detecting CXX compile features - done
+[0.502s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.528s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.530s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.766s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.818s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.824s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.911s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.945s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.038s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.108s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.110s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.112s] -- Looking for pthread.h
+[1.189s] -- Looking for pthread.h - found
+[1.190s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.276s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.277s] -- Looking for pthread_create in pthreads
+[1.341s] -- Looking for pthread_create in pthreads - not found
+[1.341s] -- Looking for pthread_create in pthread
+[1.418s] -- Looking for pthread_create in pthread - found
+[1.420s] -- Found Threads: TRUE  
+[1.613s] -- Found village_interfaces: 0.0.0 (/home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake)
+[1.913s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.012s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.012s] -- Configured cppcheck include dirs: 
+[2.012s] -- Configured cppcheck exclude dirs and/or files: 
+[2.013s] -- Added test 'lint_cmake' to check CMake code style
+[2.014s] -- Added test 'uncrustify' to check C / C++ code style
+[2.014s] -- Configured uncrustify additional arguments: 
+[2.015s] -- Added test 'xmllint' to check XML markup files
+[2.019s] -- Configuring done
+[2.031s] -- Generating done
+[2.033s] -- Build files have been written to: /home/jj/Greedy/build/village_task
+[2.047s] Invoked command in '/home/jj/Greedy/build/village_task' returned '0': AMENT_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/jj/Greedy/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jj/Greedy/src/village_task -DCMAKE_INSTALL_PREFIX=/home/jj/Greedy/install/village_task
+[2.048s] Invoking command in '/home/jj/Greedy/build/village_task': AMENT_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/jj/Greedy/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jj/Greedy/build/village_task -- -j2 -l2
+[2.114s] [35m[1mScanning dependencies of target task_node[0m
+[2.159s] [ 50%] [32mBuilding CXX object CMakeFiles/task_node.dir/src/task.cpp.o[0m
+[5.396s] [100%] [32m[1mLinking CXX executable task_node[0m
+[5.750s] [100%] Built target task_node
+[5.764s] Invoked command in '/home/jj/Greedy/build/village_task' returned '0': AMENT_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/jj/Greedy/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jj/Greedy/build/village_task -- -j2 -l2
+[5.798s] Invoking command in '/home/jj/Greedy/build/village_task': AMENT_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/jj/Greedy/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jj/Greedy/build/village_task
+[5.809s] -- Install configuration: ""
+[5.810s] -- Installing: /home/jj/Greedy/install/village_task/share/ament_index/resource_index/package_run_dependencies/village_task
+[5.811s] -- Installing: /home/jj/Greedy/install/village_task/share/ament_index/resource_index/parent_prefix_path/village_task
+[5.813s] -- Installing: /home/jj/Greedy/install/village_task/share/village_task/environment/ament_prefix_path.sh
+[5.813s] -- Installing: /home/jj/Greedy/install/village_task/share/village_task/environment/ament_prefix_path.dsv
+[5.814s] -- Installing: /home/jj/Greedy/install/village_task/share/village_task/environment/path.sh
+[5.814s] -- Installing: /home/jj/Greedy/install/village_task/share/village_task/environment/path.dsv
+[5.814s] -- Installing: /home/jj/Greedy/install/village_task/share/village_task/local_setup.bash
+[5.815s] -- Installing: /home/jj/Greedy/install/village_task/share/village_task/local_setup.sh
+[5.815s] -- Installing: /home/jj/Greedy/install/village_task/share/village_task/local_setup.zsh
+[5.815s] -- Installing: /home/jj/Greedy/install/village_task/share/village_task/local_setup.dsv
+[5.816s] -- Installing: /home/jj/Greedy/install/village_task/share/village_task/package.dsv
+[5.818s] -- Installing: /home/jj/Greedy/install/village_task/share/ament_index/resource_index/packages/village_task
+[5.818s] -- Installing: /home/jj/Greedy/install/village_task/share/village_task/cmake/village_taskConfig.cmake
+[5.818s] -- Installing: /home/jj/Greedy/install/village_task/share/village_task/cmake/village_taskConfig-version.cmake
+[5.819s] -- Up-to-date: /home/jj/Greedy/install/village_task/share/village_task/package.xml
+[5.821s] -- Installing: /home/jj/Greedy/install/village_task/lib/village_task/task_node
+[5.822s] -- Set runtime path of "/home/jj/Greedy/install/village_task/lib/village_task/task_node" to ""
+[5.827s] Invoked command in '/home/jj/Greedy/build/village_task' returned '0': AMENT_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jj/Greedy/install/village_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/jj/Greedy/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jj/Greedy/build/village_task

@@ -1,0 +1,324 @@
+[0.015s] Invoking command in '/home/jj/Greedy/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jj/Greedy/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/jj/Greedy/install/village_interfaces
+[0.081s] -- The C compiler identification is GNU 9.4.0
+[0.148s] -- The CXX compiler identification is GNU 9.4.0
+[0.153s] -- Check for working C compiler: /usr/bin/cc
+[0.227s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.227s] -- Detecting C compiler ABI info
+[0.305s] -- Detecting C compiler ABI info - done
+[0.316s] -- Detecting C compile features
+[0.316s] -- Detecting C compile features - done
+[0.319s] -- Check for working CXX compiler: /usr/bin/c++
+[0.405s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.406s] -- Detecting CXX compiler ABI info
+[0.490s] -- Detecting CXX compiler ABI info - done
+[0.505s] -- Detecting CXX compile features
+[0.506s] -- Detecting CXX compile features - done
+[0.508s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.536s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.536s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.768s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.801s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.807s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.897s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.930s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.016s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.216s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.228s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.337s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.528s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.888s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.072s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.102s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.103s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.135s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.135s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.135s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.136s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.158s] -- Found PythonExtra: .so  
+[2.275s] -- Added test 'lint_cmake' to check CMake code style
+[2.276s] -- Added test 'xmllint' to check XML markup files
+[2.284s] -- Configuring done
+[2.378s] -- Generating done
+[2.379s] -- Build files have been written to: /home/jj/Greedy/build/village_interfaces
+[2.391s] Invoked command in '/home/jj/Greedy/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jj/Greedy/src/village_interfaces -DCMAKE_INSTALL_PREFIX=/home/jj/Greedy/install/village_interfaces
+[2.395s] Invoking command in '/home/jj/Greedy/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jj/Greedy/build/village_interfaces -- -j2 -l2
+[2.438s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.438s] [35m[1mScanning dependencies of target village_interfaces__cpp[0m
+[2.451s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.262s] [  3%] Built target village_interfaces__cpp
+[3.273s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.329s] [35m[1mScanning dependencies of target village_interfaces__rosidl_generator_c[0m
+[3.345s] [  7%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/msg/detail/task__functions.c.o[0m
+[3.398s] [  9%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/borrow_money__functions.c.o[0m
+[3.461s] [ 10%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/task_assign__functions.c.o[0m
+[3.524s] [ 12%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_generator_c.dir/rosidl_generator_c/village_interfaces/srv/detail/task_update__functions.c.o[0m
+[3.586s] [ 14%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_generator_c.so[0m
+[3.636s] [ 14%] Built target village_interfaces__rosidl_generator_c
+[3.648s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.767s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_cpp[0m
+[3.783s] [ 18%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/msg/task__type_support.cpp.o[0m
+[4.046s] [ 20%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/borrow_money__type_support.cpp.o[0m
+[4.311s] [ 21%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/task_assign__type_support.cpp.o[0m
+[4.360s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[4.387s] [ 23%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/msg/detail/dds_fastrtps/task__type_support.cpp.o[0m
+[4.589s] [ 25%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/village_interfaces/srv/task_update__type_support.cpp.o[0m
+[4.824s] [ 27%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/borrow_money__type_support.cpp.o[0m
+[4.871s] [ 29%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_cpp.so[0m
+[4.917s] [ 29%] Built target village_interfaces__rosidl_typesupport_cpp
+[4.928s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.263s] [ 32%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/task_assign__type_support.cpp.o[0m
+[5.640s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_c[0m
+[5.656s] [ 34%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/msg/detail/task__type_support.c.o[0m
+[5.691s] [ 36%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/borrow_money__type_support.c.o[0m
+[5.727s] [ 38%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/task_assign__type_support.c.o[0m
+[5.764s] [ 40%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/village_interfaces/srv/detail/task_update__type_support.c.o[0m
+[5.802s] [ 41%] [32m[1mLinking C shared library libvillage_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.837s] [ 41%] Built target village_interfaces__rosidl_typesupport_introspection_c
+[5.843s] [ 43%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/village_interfaces/srv/detail/dds_fastrtps/task_update__type_support.cpp.o[0m
+[5.847s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.315s] [ 47%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.346s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_c[0m
+[6.360s] [ 49%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/msg/task__type_support.cpp.o[0m
+[6.392s] [ 50%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/borrow_money__type_support.cpp.o[0m
+[6.426s] [ 52%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/task_assign__type_support.cpp.o[0m
+[6.458s] [ 54%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/village_interfaces/srv/task_update__type_support.cpp.o[0m
+[6.490s] [ 56%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_c.so[0m
+[6.505s] [ 56%] Built target village_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.518s] [ 58%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.533s] [ 58%] Built target village_interfaces__rosidl_typesupport_c
+[6.543s] [ 60%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.117s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_cpp[0m
+[7.134s] [ 61%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/msg/detail/task__type_support.cpp.o[0m
+[7.177s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c[0m
+[7.204s] [ 63%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/msg/detail/task__type_support_c.cpp.o[0m
+[7.438s] [ 65%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/borrow_money__type_support.cpp.o[0m
+[7.552s] [ 67%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/borrow_money__type_support_c.cpp.o[0m
+[7.735s] [ 69%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/task_assign__type_support.cpp.o[0m
+[7.912s] [ 70%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/task_assign__type_support_c.cpp.o[0m
+[8.078s] [ 72%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/village_interfaces/srv/detail/task_update__type_support.cpp.o[0m
+[8.273s] [ 74%] [32mBuilding CXX object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/village_interfaces/srv/detail/task_update__type_support_c.cpp.o[0m
+[8.427s] [ 76%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[8.583s] [ 76%] Built target village_interfaces__rosidl_typesupport_introspection_cpp
+[8.634s] [ 78%] [32m[1mLinking CXX shared library libvillage_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[8.795s] [ 78%] Built target village_interfaces__rosidl_typesupport_fastrtps_c
+[8.805s] [35m[1mScanning dependencies of target village_interfaces[0m
+[8.818s] [ 78%] Built target village_interfaces
+[8.828s] [35m[1mScanning dependencies of target village_interfaces__py[0m
+[8.840s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.177s] [ 80%] Built target village_interfaces__py
+[10.188s] [35m[1mScanning dependencies of target village_interfaces__python[0m
+[10.218s] [ 83%] [32mBuilding C object CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/srv/_borrow_money_s.c.o[0m
+[10.218s] [ 83%] [32mBuilding C object CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/msg/_task_s.c.o[0m
+[10.310s] [ 85%] [32mBuilding C object CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/srv/_task_assign_s.c.o[0m
+[10.319s] [ 87%] [32mBuilding C object CMakeFiles/village_interfaces__python.dir/rosidl_generator_py/village_interfaces/srv/_task_update_s.c.o[0m
+[10.423s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/libvillage_interfaces__python.so[0m
+[10.478s] [ 89%] Built target village_interfaces__python
+[10.488s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_c__pyext[0m
+[10.488s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[10.511s] [ 92%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[10.511s] [ 92%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.617s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[10.617s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[10.664s] [ 96%] Built target village_interfaces__rosidl_typesupport_introspection_c__pyext
+[10.669s] [ 96%] Built target village_interfaces__rosidl_typesupport_c__pyext
+[10.675s] [35m[1mScanning dependencies of target village_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[10.698s] [ 98%] [32mBuilding C object CMakeFiles/village_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/village_interfaces/_village_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.803s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[10.884s] [100%] Built target village_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[10.899s] Invoked command in '/home/jj/Greedy/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jj/Greedy/build/village_interfaces -- -j2 -l2
+[11.014s] Invoking command in '/home/jj/Greedy/build/village_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jj/Greedy/build/village_interfaces
+[11.027s] -- Install configuration: ""
+[11.029s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/ament_index/resource_index/rosidl_interfaces/village_interfaces
+[11.030s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces
+[11.030s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg
+[11.030s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail
+[11.031s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail/task__functions.c
+[11.031s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail/task__struct.h
+[11.032s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail/task__type_support.h
+[11.032s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail/task__functions.h
+[11.032s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/task.h
+[11.032s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/rosidl_generator_c__visibility_control.h
+[11.032s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv
+[11.033s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/task_assign.h
+[11.033s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/task_update.h
+[11.033s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail
+[11.033s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_assign__type_support.h
+[11.033s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__functions.h
+[11.034s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_update__struct.h
+[11.034s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_update__functions.h
+[11.034s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__functions.c
+[11.034s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_update__type_support.h
+[11.035s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_assign__functions.h
+[11.035s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_update__functions.c
+[11.035s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_assign__functions.c
+[11.035s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__struct.h
+[11.035s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.h
+[11.035s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_assign__struct.h
+[11.036s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/borrow_money.h
+[11.036s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/environment/library_path.sh
+[11.037s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/environment/library_path.dsv
+[11.038s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so
+[11.039s] -- Set runtime path of "/home/jj/Greedy/install/village_interfaces/lib/libvillage_interfaces__rosidl_generator_c.so" to ""
+[11.039s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces
+[11.039s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg
+[11.039s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail
+[11.039s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail/task__rosidl_typesupport_fastrtps_c.h
+[11.040s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.040s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv
+[11.040s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail
+[11.040s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_update__rosidl_typesupport_fastrtps_c.h
+[11.040s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_fastrtps_c.h
+[11.040s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_assign__rosidl_typesupport_fastrtps_c.h
+[11.042s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so
+[11.042s] -- Set runtime path of "/home/jj/Greedy/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[11.042s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces
+[11.043s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg
+[11.043s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail
+[11.043s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail/task__rosidl_typesupport_fastrtps_cpp.hpp
+[11.043s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail/dds_fastrtps
+[11.044s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.045s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv
+[11.045s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail
+[11.045s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_update__rosidl_typesupport_fastrtps_cpp.hpp
+[11.045s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_assign__rosidl_typesupport_fastrtps_cpp.hpp
+[11.045s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_fastrtps_cpp.hpp
+[11.045s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/dds_fastrtps
+[11.046s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[11.046s] -- Set runtime path of "/home/jj/Greedy/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.047s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces
+[11.047s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg
+[11.047s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail
+[11.047s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail/task__rosidl_typesupport_introspection_c.h
+[11.047s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail/task__type_support.c
+[11.048s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.048s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv
+[11.048s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail
+[11.048s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_assign__type_support.c
+[11.048s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_c.h
+[11.048s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_update__type_support.c
+[11.049s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.c
+[11.049s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_update__rosidl_typesupport_introspection_c.h
+[11.049s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_assign__rosidl_typesupport_introspection_c.h
+[11.050s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so
+[11.051s] -- Set runtime path of "/home/jj/Greedy/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[11.052s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so
+[11.053s] -- Set runtime path of "/home/jj/Greedy/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_c.so" to ""
+[11.053s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces
+[11.053s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg
+[11.053s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.053s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail
+[11.054s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail/task__type_support.hpp
+[11.054s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail/task__builder.hpp
+[11.054s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail/task__traits.hpp
+[11.054s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail/task__struct.hpp
+[11.054s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/task.hpp
+[11.054s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv
+[11.055s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/task_update.hpp
+[11.055s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail
+[11.055s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__struct.hpp
+[11.055s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_update__struct.hpp
+[11.055s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__builder.hpp
+[11.056s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_assign__builder.hpp
+[11.056s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_update__type_support.hpp
+[11.056s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.hpp
+[11.056s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_update__builder.hpp
+[11.056s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_assign__traits.hpp
+[11.056s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_assign__type_support.hpp
+[11.057s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__traits.hpp
+[11.057s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_update__traits.hpp
+[11.057s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_assign__struct.hpp
+[11.057s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/task_assign.hpp
+[11.057s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/borrow_money.hpp
+[11.057s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces
+[11.057s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg
+[11.058s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail
+[11.058s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail/task__type_support.cpp
+[11.058s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/msg/detail/task__rosidl_typesupport_introspection_cpp.hpp
+[11.058s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv
+[11.058s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail
+[11.059s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_update__rosidl_typesupport_introspection_cpp.hpp
+[11.059s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_assign__type_support.cpp
+[11.059s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_update__type_support.cpp
+[11.059s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__type_support.cpp
+[11.059s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/task_assign__rosidl_typesupport_introspection_cpp.hpp
+[11.059s] -- Installing: /home/jj/Greedy/install/village_interfaces/include/village_interfaces/srv/detail/borrow_money__rosidl_typesupport_introspection_cpp.hpp
+[11.061s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so
+[11.062s] -- Set runtime path of "/home/jj/Greedy/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[11.064s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so
+[11.064s] -- Set runtime path of "/home/jj/Greedy/install/village_interfaces/lib/libvillage_interfaces__rosidl_typesupport_cpp.so" to ""
+[11.064s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/environment/pythonpath.sh
+[11.065s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/environment/pythonpath.dsv
+[11.065s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/__init__.py
+[11.096s] Compiling '/home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/__init__.py'...
+[11.102s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg
+[11.103s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/_task_s.c
+[11.103s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/_task.py
+[11.103s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/msg/__init__.py
+[11.104s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv
+[11.104s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_task_update.py
+[11.104s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_task_assign_s.c
+[11.104s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_task_update_s.c
+[11.104s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_borrow_money.py
+[11.105s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_task_assign.py
+[11.105s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/_borrow_money_s.c
+[11.105s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/srv/__init__.py
+[11.106s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[11.106s] -- Set runtime path of "/home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[11.107s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[11.107s] -- Set runtime path of "/home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[11.108s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[11.108s] -- Set runtime path of "/home/jj/Greedy/install/village_interfaces/lib/python3.8/site-packages/village_interfaces/village_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[11.109s] -- Installing: /home/jj/Greedy/install/village_interfaces/lib/libvillage_interfaces__python.so
+[11.109s] -- Set runtime path of "/home/jj/Greedy/install/village_interfaces/lib/libvillage_interfaces__python.so" to ""
+[11.110s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/msg/Task.idl
+[11.111s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/srv/BorrowMoney.idl
+[11.111s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/srv/TaskAssign.idl
+[11.112s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/srv/TaskUpdate.idl
+[11.112s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/msg/Task.msg
+[11.112s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/srv/BorrowMoney.srv
+[11.112s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/srv/BorrowMoney_Request.msg
+[11.113s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/srv/BorrowMoney_Response.msg
+[11.113s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/srv/TaskAssign.srv
+[11.113s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/srv/TaskAssign_Request.msg
+[11.114s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/srv/TaskAssign_Response.msg
+[11.114s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/srv/TaskUpdate.srv
+[11.114s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/srv/TaskUpdate_Request.msg
+[11.114s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/srv/TaskUpdate_Response.msg
+[11.115s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/ament_index/resource_index/package_run_dependencies/village_interfaces
+[11.116s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/ament_index/resource_index/parent_prefix_path/village_interfaces
+[11.117s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.sh
+[11.117s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/environment/ament_prefix_path.dsv
+[11.117s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/environment/path.sh
+[11.118s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/environment/path.dsv
+[11.118s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/local_setup.bash
+[11.118s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/local_setup.sh
+[11.119s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/local_setup.zsh
+[11.119s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/local_setup.dsv
+[11.119s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/package.dsv
+[11.120s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/ament_index/resource_index/packages/village_interfaces
+[11.121s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cExport.cmake
+[11.121s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.122s] -- Old export file "/home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[11.122s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.123s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.123s] -- Old export file "/home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[11.123s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport.cmake
+[11.124s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.124s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_generator_cppExport.cmake
+[11.125s] -- Old export file "/home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[11.125s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.125s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.126s] -- Old export file "/home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[11.126s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport.cmake
+[11.127s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.128s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.128s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.128s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.129s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.129s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.129s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.130s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.130s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig.cmake
+[11.130s] -- Installing: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/cmake/village_interfacesConfig-version.cmake
+[11.131s] -- Up-to-date: /home/jj/Greedy/install/village_interfaces/share/village_interfaces/package.xml
+[11.137s] Invoked command in '/home/jj/Greedy/build/village_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jj/Greedy/build/village_interfaces

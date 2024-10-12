@@ -1,0 +1,7 @@
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In member function ‘[01m[Kdouble Operator::getSuccessRate(int) const[m[K’:
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:45:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   45 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:44:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtaskIndex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   44 |     double getSuccessRate([01;35m[Kint taskIndex[m[K) const {// 获取操作员在对应任务上的成功率
+      |                           [01;35m[K~~~~^~~~~~~~~[m[K

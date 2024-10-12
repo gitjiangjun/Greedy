@@ -1,0 +1,13 @@
+[0.043s] Invoking command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_operator -- -j12 -l12
+[0.166s] [35m[1mConsolidate compiler generated dependencies of target operator_node[0m
+[0.225s] [ 50%] [32mBuilding CXX object CMakeFiles/operator_node.dir/src/operator.cpp.o[0m
+[7.498s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:281:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass TaskAssignServer[m[K’
+[7.499s]   281 | class [01;31m[KTaskAssignServer[m[K : public rclcpp::Node {
+[7.499s]       |       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.499s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:155:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass TaskAssignServer[m[K’
+[7.499s]   155 | class [01;36m[KTaskAssignServer[m[K : public rclcpp::Node {
+[7.499s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[9.378s] gmake[2]: *** [CMakeFiles/operator_node.dir/build.make:76: CMakeFiles/operator_node.dir/src/operator.cpp.o] Error 1
+[9.379s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/operator_node.dir/all] Error 2
+[9.379s] gmake: *** [Makefile:146: all] Error 2
+[9.388s] Invoked command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator' returned '2': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_operator -- -j12 -l12

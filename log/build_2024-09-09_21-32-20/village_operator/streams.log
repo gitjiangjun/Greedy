@@ -1,0 +1,14 @@
+[0.033s] Invoking command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_operator -- -j12 -l12
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target operator_node[0m
+[0.097s] [ 50%] [32mBuilding CXX object CMakeFiles/operator_node.dir/src/operator.cpp.o[0m
+[3.319s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In member function ‘[01m[Kvoid TaskAssignServer::assignTasks(const std::vector<int>&, std::shared_ptr<village_interfaces::srv::TaskAssign_Response_<std::allocator<void> > >)[m[K’:
+[3.319s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:533:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ktask_index_global[m[K’ was not declared in this scope
+[3.319s]   533 |             for (size_t j = 0; j < [01;31m[Ktask_index_global[m[K + 1; ++j)
+[3.319s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.329s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:546:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ktask_index_global[m[K’ was not declared in this scope
+[3.329s]   546 |             for (size_t j = 0; j < [01;31m[Ktask_index_global[m[K + 1; ++j)
+[3.329s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.790s] gmake[2]: *** [CMakeFiles/operator_node.dir/build.make:76：CMakeFiles/operator_node.dir/src/operator.cpp.o] 错误 1
+[4.792s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/operator_node.dir/all] 错误 2
+[4.793s] gmake: *** [Makefile:146：all] 错误 2
+[4.796s] Invoked command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator' returned '2': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_operator -- -j12 -l12

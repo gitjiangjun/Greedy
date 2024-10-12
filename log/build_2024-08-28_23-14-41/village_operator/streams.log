@@ -1,0 +1,15 @@
+[0.031s] Invoking command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_operator -- -j12 -l12
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target operator_node[0m
+[0.118s] [ 50%] [32mBuilding CXX object CMakeFiles/operator_node.dir/src/operator.cpp.o[0m
+[3.218s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In lambda function:
+[3.218s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:436:77:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Ktask_assign_lambda[m[K’ before deduction of ‘[01m[Kauto[m[K’
+[3.218s]   436 |                 std::thread([this, selected_operator_index, best_task_time, [01;31m[Ktask_assign_lambda[m[K] {
+[3.219s]       |                                                                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.219s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In lambda function:
+[3.219s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:443:21:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Ktask_assign_lambda[m[K’ before deduction of ‘[01m[Kauto[m[K’
+[3.220s]   443 |                     [01;31m[Ktask_assign_lambda[m[K();  // 重新启动任务分配
+[3.220s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.625s] gmake[2]: *** [CMakeFiles/operator_node.dir/build.make:76：CMakeFiles/operator_node.dir/src/operator.cpp.o] 错误 1
+[4.625s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/operator_node.dir/all] 错误 2
+[4.625s] gmake: *** [Makefile:146：all] 错误 2
+[4.629s] Invoked command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator' returned '2': CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_operator -- -j12 -l12

@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000527] (-) JobUnselected: {'identifier': 'village_interfaces'}
+[0.000611] (-) JobUnselected: {'identifier': 'village_operator'}
+[0.000634] (-) JobUnselected: {'identifier': 'village_task'}
+[0.000651] (-) JobUnselected: {'identifier': 'village_taskgroups'}
+[0.000668] (-) EventReactorShutdown: {}

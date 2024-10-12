@@ -1,0 +1,7 @@
+[0.016s] Invoking command in '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator': AMENT_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lichaoyue/Desktop/tasktown_ws/build/village_operator -- -j12 -l12
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target operator_node[0m
+[0.097s] [ 50%] [32mBuilding CXX object CMakeFiles/operator_node.dir/src/operator.cpp.o[0m
+[3.275s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In lambda function:
+[3.275s] [01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:354:37:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktask_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.276s]   354 |                                 int [01;35m[Ktask_time[m[K = task[2];
+[3.276s]       |                                     [01;35m[K^~~~~~~~~[m[K

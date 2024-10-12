@@ -1,0 +1,16 @@
+/home/jj/Greedy/install/village_operator/share/ament_index/resource_index/package_run_dependencies/village_operator
+/home/jj/Greedy/install/village_operator/share/ament_index/resource_index/parent_prefix_path/village_operator
+/home/jj/Greedy/install/village_operator/share/village_operator/environment/ament_prefix_path.sh
+/home/jj/Greedy/install/village_operator/share/village_operator/environment/ament_prefix_path.dsv
+/home/jj/Greedy/install/village_operator/share/village_operator/environment/path.sh
+/home/jj/Greedy/install/village_operator/share/village_operator/environment/path.dsv
+/home/jj/Greedy/install/village_operator/share/village_operator/local_setup.bash
+/home/jj/Greedy/install/village_operator/share/village_operator/local_setup.sh
+/home/jj/Greedy/install/village_operator/share/village_operator/local_setup.zsh
+/home/jj/Greedy/install/village_operator/share/village_operator/local_setup.dsv
+/home/jj/Greedy/install/village_operator/share/village_operator/package.dsv
+/home/jj/Greedy/install/village_operator/share/ament_index/resource_index/packages/village_operator
+/home/jj/Greedy/install/village_operator/share/village_operator/cmake/village_operatorConfig.cmake
+/home/jj/Greedy/install/village_operator/share/village_operator/cmake/village_operatorConfig-version.cmake
+/home/jj/Greedy/install/village_operator/share/village_operator/package.xml
+/home/jj/Greedy/install/village_operator/lib/village_operator/operator_node

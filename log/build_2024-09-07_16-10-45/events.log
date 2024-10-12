@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.000999] (-) JobUnselected: {'identifier': 'village_interfaces'}
+[0.001086] (-) JobUnselected: {'identifier': 'village_task'}
+[0.001110] (-) JobUnselected: {'identifier': 'village_taskgroups'}
+[0.001134] (village_operator) JobQueued: {'identifier': 'village_operator', 'dependencies': OrderedDict([('village_interfaces', '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces')])}
+[0.001195] (village_operator) JobStarted: {'identifier': 'village_operator'}
+[0.020186] (village_operator) JobProgress: {'identifier': 'village_operator', 'progress': 'cmake'}
+[0.024289] (village_operator) JobProgress: {'identifier': 'village_operator', 'progress': 'build'}
+[0.024539] (village_operator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator', '--', '-j12', '-l12'], 'cwd': '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lichaoyue'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lichaoyue'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1662'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4235ef54856812c5b0d84ac166dbbc9c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lichaoyue/Desktop/tasktown_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lichaoyue'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lichaoyue'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lichaoyue-virtual-machine:@/tmp/.ICE-unix/1662,unix/lichaoyue-virtual-machine:/tmp/.ICE-unix/1662'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2387d5a5_d0e6_416b_bd9b_3f5b0b6c9e5f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DW8CT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7eb22a8617.sock'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lichaoyue/Desktop/tasktown_ws/build/village_operator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4235ef54856812c5b0d84ac166dbbc9c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lichaoyue/Desktop/tasktown_ws/install/village_interfaces:/home/lichaoyue/Desktop/tasktown_ws/install/village_taskgroups:/home/lichaoyue/Desktop/tasktown_ws/install/village_task:/home/lichaoyue/Desktop/tasktown_ws/install/village_operator:/opt/ros/humble')]), 'shell': False}
+[0.085527] (village_operator) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target operator_node\x1b[0m\n'}
+[0.100850] (-) TimerEvent: {}
+[0.111814] (village_operator) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/operator_node.dir/src/operator.cpp.o\x1b[0m\n'}
+[0.200970] (-) TimerEvent: {}
+[0.301459] (-) TimerEvent: {}
+[0.401915] (-) TimerEvent: {}
+[0.504151] (-) TimerEvent: {}
+[0.605440] (-) TimerEvent: {}
+[0.706158] (-) TimerEvent: {}
+[0.806907] (-) TimerEvent: {}
+[0.907835] (-) TimerEvent: {}
+[1.008937] (-) TimerEvent: {}
+[1.110308] (-) TimerEvent: {}
+[1.213445] (-) TimerEvent: {}
+[1.314336] (-) TimerEvent: {}
+[1.415313] (-) TimerEvent: {}
+[1.516212] (-) TimerEvent: {}
+[1.642187] (-) TimerEvent: {}
+[1.742811] (-) TimerEvent: {}
+[1.843373] (-) TimerEvent: {}
+[1.944146] (-) TimerEvent: {}
+[2.045003] (-) TimerEvent: {}
+[2.145696] (-) TimerEvent: {}
+[2.246151] (-) TimerEvent: {}
+[2.347703] (-) TimerEvent: {}
+[2.448297] (-) TimerEvent: {}
+[2.549335] (-) TimerEvent: {}
+[2.649855] (-) TimerEvent: {}
+[2.750741] (-) TimerEvent: {}
+[2.851424] (-) TimerEvent: {}
+[2.952772] (-) TimerEvent: {}
+[3.057204] (-) TimerEvent: {}
+[3.157782] (-) TimerEvent: {}
+[3.267990] (-) TimerEvent: {}
+[3.370349] (-) TimerEvent: {}
+[3.471370] (-) TimerEvent: {}
+[3.571906] (-) TimerEvent: {}
+[3.672867] (village_operator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TaskAssignServer::assignTasks(const std::vector<int>&, std::shared_ptr<village_interfaces::srv::TaskAssign_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.673052] (-) TimerEvent: {}
+[3.673120] (village_operator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:645:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kmax_reward\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.673344] (village_operator) StderrLine: {'line': b'  645 |         double \x1b[01;35m\x1b[Kmax_reward\x1b[m\x1b[K = kmAlgorithm(task_infos, task_assignment);\n'}
+[3.673479] (village_operator) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.773499] (-) TimerEvent: {}
+[3.877256] (-) TimerEvent: {}
+[3.977987] (-) TimerEvent: {}
+[4.078662] (-) TimerEvent: {}
+[4.179125] (-) TimerEvent: {}
+[4.283147] (-) TimerEvent: {}
+[4.384729] (-) TimerEvent: {}
+[4.426851] (village_operator) StderrLine: {'line': b'/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KTaskAssignServer::assignTasks(const std::vector<int>&, std::shared_ptr<village_interfaces::srv::TaskAssign_Response_<std::allocator<void> > >)::<lambda()>::<lambda(const auto:40&)> [with auto:40 = Operator]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.427090] (village_operator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/predefined_ops.h:318:23:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool __gnu_cxx::__ops::_Iter_pred<_Predicate>::operator()(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<Operator*, std::vector<Operator> >; _Predicate = TaskAssignServer::assignTasks(const std::vector<int>&, std::shared_ptr<village_interfaces::srv::TaskAssign_Response_<std::allocator<void> > >)::<lambda()>::<lambda(const auto:40&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.427168] (village_operator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:2069:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[K_RandomAccessIterator std::__find_if(_RandomAccessIterator, _RandomAccessIterator, _Predicate, std::random_access_iterator_tag) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<Operator*, std::vector<Operator> >; _Predicate = __gnu_cxx::__ops::_Iter_pred<TaskAssignServer::assignTasks(const std::vector<int>&, std::shared_ptr<village_interfaces::srv::TaskAssign_Response_<std::allocator<void> > >)::<lambda()>::<lambda(const auto:40&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.427228] (village_operator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:2114:23:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[K_Iterator std::__find_if(_Iterator, _Iterator, _Predicate) [with _Iterator = __gnu_cxx::__normal_iterator<Operator*, std::vector<Operator> >; _Predicate = __gnu_cxx::__ops::_Iter_pred<TaskAssignServer::assignTasks(const std::vector<int>&, std::shared_ptr<village_interfaces::srv::TaskAssign_Response_<std::allocator<void> > >)::<lambda()>::<lambda(const auto:40&)> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.427287] (village_operator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3910:28:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[K_IIter std::find_if(_IIter, _IIter, _Predicate) [with _IIter = __gnu_cxx::__normal_iterator<Operator*, std::vector<Operator> >; _Predicate = TaskAssignServer::assignTasks(const std::vector<int>&, std::shared_ptr<village_interfaces::srv::TaskAssign_Response_<std::allocator<void> > >)::<lambda()>::<lambda(const auto:40&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.427345] (village_operator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:471:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool std::none_of(_IIter, _IIter, _Predicate) [with _IIter = __gnu_cxx::__normal_iterator<Operator*, std::vector<Operator> >; _Predicate = TaskAssignServer::assignTasks(const std::vector<int>&, std::shared_ptr<village_interfaces::srv::TaskAssign_Response_<std::allocator<void> > >)::<lambda()>::<lambda(const auto:40&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.427412] (village_operator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:490:27:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool std::any_of(_IIter, _IIter, _Predicate) [with _IIter = __gnu_cxx::__normal_iterator<Operator*, std::vector<Operator> >; _Predicate = TaskAssignServer::assignTasks(const std::vector<int>&, std::shared_ptr<village_interfaces::srv::TaskAssign_Response_<std::allocator<void> > >)::<lambda()>::<lambda(const auto:40&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.427592] (village_operator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:589:31:\x1b[m\x1b[K   required from here\n'}
+[4.427672] (village_operator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:590:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst Operator\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.427740] (village_operator) StderrLine: {'line': b'  590 |                 return !\x1b[01;31m\x1b[Kmanager.isOperatorBusy(operator_status)\x1b[m\x1b[K;\n'}
+[4.427810] (village_operator) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.427865] (village_operator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:293:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kbool TaskAssignmentManager::isOperatorBusy(int) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.427923] (village_operator) StderrLine: {'line': b'  293 |     bool isOperatorBusy(\x1b[01;36m\x1b[Kint operatorIndex\x1b[m\x1b[K) const\n'}
+[4.427991] (village_operator) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.488155] (-) TimerEvent: {}
+[4.589392] (-) TimerEvent: {}
+[4.690812] (-) TimerEvent: {}
+[4.791202] (-) TimerEvent: {}
+[4.892007] (-) TimerEvent: {}
+[4.992369] (-) TimerEvent: {}
+[5.083271] (village_operator) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/operator_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/operator_node.dir/src/operator.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[5.084172] (village_operator) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/operator_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.084259] (village_operator) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.087740] (village_operator) CommandEnded: {'returncode': 2}
+[5.099477] (-) TimerEvent: {}
+[5.162789] (village_operator) JobEnded: {'identifier': 'village_operator', 'rc': 2}
+[5.174870] (-) EventReactorShutdown: {}

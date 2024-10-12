@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target operator_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/operator_node.dir/src/operator.cpp.o[0m
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:550:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto node[m[K’
+  550 |     auto [01;31m[Knode[m[K = std::make_shared<TaskAssignServer>("operator");        // 创建任务分配服务端节点，不传递任何参数，创建任务分配服务端节点
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/lichaoyue/Desktop/tasktown_ws/src/village_operator/src/operator.cpp:549:10:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::shared_ptr<TaskUpdateNode> node[m[K’
+  549 |     auto [01;36m[Knode[m[K = std::make_shared<TaskUpdateNode>("task_update_node");  // 创建任务更新服务端节点，不传递任何参数，创建任务更新服务端节点
+      |          [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/operator_node.dir/build.make:76: CMakeFiles/operator_node.dir/src/operator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/operator_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
